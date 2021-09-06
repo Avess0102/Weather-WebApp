@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: -webkit-linear-gradient(60deg, #37aed6 50%, #E4E9FD 50%);
+  height: 100vh;
+}
+
+.box{
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  background-color: #fafafa;
+  padding: 8%;
+}
+
+.box h1{
+  text-align: center;
+  color: orange;
+  padding: 2%
+}
+
+.box input{
+  text-align: center;
+  padding: 5% 25%;
+}
+
+.box button{
+  padding: 5%;
+  background-color: orange;
+  color: black;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  margin: 2% 0 0 30%;
+}
+
+.box button:hover{
+  color: orange;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.boxx{
+  background-color: orange;
+  color: white;
+  margin-left: 7%;
+}
+
+.boxx h1{
+  text-align: center;
+  color: white;
+}
+
+.boxx p{
+  color: black;
+  font-size: 16px;
+}
+
+.boxx img{
+  padding:5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+.boxx span{
+  color: red;
+}
+
+.boxx button{
+  background-color: white;
+  padding: 5%;
+  color: black;
+  font-size: 18px;
+  margin: 2% 0 0 20%;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: orange;
+}
+
+@media (max-width: 768px) {
+  .box{
+    left: 20%;
+  }
+
+  .box input{
+    padding: 5% 25%;
+  }
+
+  .box button{
+    margin: 5% 0 0 30%;
+  }
+}
+
+@media (max-width: 426px) {
+  .box{
+    top: 15%;
+    left: 7%;
+  }
+
+  .box input{
+    padding: 5% 20%;
+  }
+
+  .box button{
+    margin: 5% 0 0 25%;
+  }
+}
+
+@media (max-width: 376px) {
+  .box{
+    top: 15%;
+    left: 2%;
+  }
+
+  .box input{
+    padding: 5% 20%;
+  }
+
+  .boxx{
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 321px) {
+  .box{
+    top: 15%;
+    left: 0%;
+  }
+
+  .box input{
+    padding: 5% 18%;
+  }
+
+  .boxx{
+    margin-left: 5%;
+  }
+}
